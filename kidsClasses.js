@@ -13,5 +13,5 @@ javascript:(function () {
           .filter((text) => {
             return kidsMT.find((thing) => text.indexOf(thing) !== -1)
           }).length;
-    window.alert('Kids Class Count: ' +  'Kids BJJ: ' + bjjKids +  '  |  Kids MT: ' + mtKids)
+    window.alert('Kids Class Count: ' +  'Kids BJJ: ' + bjjKids +  '  |  Kids MT: ' + mtKids  + '  |   Promotion Requirements: 1 Month - 8 Classes')
   })()
